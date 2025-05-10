@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(20, 80, 200);
+  background-color: rgb(50, 100, 175);
 }
 
 h1 {
@@ -11,7 +11,14 @@ h1 {
   margin: 1vh;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
 #temperature {
   margin: 0;
-  font-size: 10vh;
+  font-size: 20vh;
 }
