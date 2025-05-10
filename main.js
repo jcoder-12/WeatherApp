@@ -67,8 +67,6 @@ async function weatherApp(longitude, latitude) {
     "#humidity"
   ).textContent = `Humidity: ${relativeHumidity}%`;
 
-  else if (String(conditions).includes(""))
-
   console.log(forecastData);
 }
 
